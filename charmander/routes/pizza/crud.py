@@ -34,8 +34,8 @@ def configure_pizza_routes(graph):
         ),
         Operation.Search: EndpointDefinition(
             func=controller.search,
-            request_schema=SearchPizzaSchema(),
-            response_schema=PizzaSchema(),
+            request_schema=,#TBD - fill this
+            response_schema=,#TBD - fill this
         ),
     }
     configure_crud(graph, controller.ns, mappings)
