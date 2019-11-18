@@ -37,6 +37,7 @@ def configure_pizza_routes(graph):
             request_schema=SearchPizzaSchema(),
             response_schema=PizzaSchema(),
         ),
+        # Just as a test - adding something here too
     }
     configure_crud(graph, controller.ns, mappings)
     return controller.ns
