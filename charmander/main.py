@@ -15,6 +15,7 @@ def createall():
 
     """
     graph = create_app(debug=True, model_only=True)
+    # Test - this was added just to validate #
     createall_main(graph)
 
 
